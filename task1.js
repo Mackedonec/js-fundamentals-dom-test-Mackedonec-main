@@ -9,17 +9,20 @@
 //Твій код має бути тут
 
 const mainId = document.querySelector("#list");
-firstEl = mainId.firstElementChild;
-lastEl = mainId.lastElementChild;
-secondtEl = mainId.firstElementChild.nextElementSibling;
-thirdtEl = mainId.firstElementChild.nextElementSibling.nextElementSibling;
-fourthEl = mainId.lastElementChild.previousElementSibling;
-console.log(firstEl);
-console.log(lastEl);
-console.log(secondtEl);
-console.log(thirdtEl);
-console.log(fourthEl);
+const firstEl = mainId.firstElementChild;
+const lastEl = mainId.lastElementChild;
+const secondtEl = mainId.firstElementChild.nextElementSibling;
+const thirdtEl = mainId.firstElementChild.nextElementSibling.nextElementSibling;
+const fourthEl = mainId.lastElementChild.previousElementSibling;
 
+const firstElText = firstEl.textContent;
+const lastElText = lastEl.textContent;
+const secondElText = secondtEl.textContent;
+const thirdElText = thirdtEl.textContent;
+const fourthElText = fourthEl.textContent;
+
+let text = `${firstElText}, ${lastElText}, ${secondElText}, ${fourthElText}, ${thirdElText}`;
+console.log(text);
 //Не видаляй наступні рядки, вони потрібні для запуску тестів
 module.exports = {
   firstEl,
