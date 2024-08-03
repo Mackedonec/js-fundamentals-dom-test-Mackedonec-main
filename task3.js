@@ -8,8 +8,15 @@
 //
 // Цю розмітку потрібно вставити у існуючий html елемент із класом "create_elements"
 
+const newEl = document.querySelector(".create_elements");
+
 function applyStyles() {
-  // Твій код має бути тут
+  newEl.innerHTML = `
+  <main class="mainClass check item">
+     <div id="myDiv">
+        <p>First paragraph</p>
+     </div>
+  </main>`;
 }
 
 //Не видаляй наступні рядки, вони потрібні для запуску тестів
