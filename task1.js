@@ -8,6 +8,8 @@
 
 //Твій код має бути тут
 
+// solution №1
+
 // const mainId = document.querySelector("#list");
 // const firstEl = mainId.firstElementChild;
 // const lastEl = mainId.lastElementChild;
@@ -23,6 +25,8 @@
 
 // let text = `${firstElText}, ${lastElText}, ${secondElText}, ${fourthElText}, ${thirdElText}`;
 // console.log(text);
+
+// solution №2
 
 const mainId = document.querySelector("#list");
 

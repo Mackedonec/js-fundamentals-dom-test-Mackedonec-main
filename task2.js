@@ -6,6 +6,8 @@ const myUlList = document.querySelector("#myList");
 const mySpan = document.querySelector("span");
 
 function applyStyles() {
+  // solution №1
+
   //   myTitle.outerHTML = `
   //     <h1 id="title" style="background-color: lightgreen">
   //       I'am a big header!!!
@@ -34,6 +36,8 @@ function applyStyles() {
   //       Make me invisible, please!
   //     </span>
   //     `;
+
+  // solution №2
 
   myTitle.style.backgroundColor = "lightgreen";
 

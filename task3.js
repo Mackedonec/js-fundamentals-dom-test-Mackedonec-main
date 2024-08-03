@@ -8,6 +8,8 @@
 //
 // Цю розмітку потрібно вставити у існуючий html елемент із класом "create_elements"
 
+// solution №1
+
 const newEl = document.querySelector(".create_elements");
 
 function applyStyles() {
