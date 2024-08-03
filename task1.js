@@ -8,21 +8,34 @@
 
 //Твій код має бути тут
 
+// const mainId = document.querySelector("#list");
+// const firstEl = mainId.firstElementChild;
+// const lastEl = mainId.lastElementChild;
+// const secondtEl = mainId.firstElementChild.nextElementSibling;
+// const thirdtEl = mainId.firstElementChild.nextElementSibling.nextElementSibling;
+// const fourthEl = mainId.lastElementChild.previousElementSibling;
+
+// const firstElText = firstEl.textContent;
+// const lastElText = lastEl.textContent;
+// const secondElText = secondtEl.textContent;
+// const thirdElText = thirdtEl.textContent;
+// const fourthElText = fourthEl.textContent;
+
+// let text = `${firstElText}, ${lastElText}, ${secondElText}, ${fourthElText}, ${thirdElText}`;
+// console.log(text);
+
 const mainId = document.querySelector("#list");
-const firstEl = mainId.firstElementChild;
-const lastEl = mainId.lastElementChild;
-const secondtEl = mainId.firstElementChild.nextElementSibling;
-const thirdtEl = mainId.firstElementChild.nextElementSibling.nextElementSibling;
-const fourthEl = mainId.lastElementChild.previousElementSibling;
 
-const firstElText = firstEl.textContent;
-const lastElText = lastEl.textContent;
-const secondElText = secondtEl.textContent;
-const thirdElText = thirdtEl.textContent;
-const fourthElText = fourthEl.textContent;
+const firstEl = mainId.firstElementChild.innerHTML;
+const secondEl = mainId.firstElementChild.nextElementSibling.innerHTML;
+const thirdEl =
+  mainId.firstElementChild.nextElementSibling.nextElementSibling.innerHTML;
+const fourthEl = mainId.lastElementChild.previousElementSibling.innerHTML;
+const lastEl = mainId.lastElementChild.innerHTML;
 
-let text = `${firstElText}, ${lastElText}, ${secondElText}, ${fourthElText}, ${thirdElText}`;
+let text = `${firstEl}, ${secondEl}, ${thirdEl}, ${fourthEl}, ${lastEl}`;
 console.log(text);
+
 //Не видаляй наступні рядки, вони потрібні для запуску тестів
 module.exports = {
   firstEl,
