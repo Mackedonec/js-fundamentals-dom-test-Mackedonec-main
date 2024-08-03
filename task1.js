@@ -27,14 +27,13 @@
 const mainId = document.querySelector("#list");
 
 const firstEl = mainId.firstElementChild.innerHTML;
-const secondEl = mainId.firstElementChild.nextElementSibling.innerHTML;
-const thirdEl =
+const secondtEl = mainId.firstElementChild.nextElementSibling.innerHTML;
+const thirdtEl =
   mainId.firstElementChild.nextElementSibling.nextElementSibling.innerHTML;
 const fourthEl = mainId.lastElementChild.previousElementSibling.innerHTML;
 const lastEl = mainId.lastElementChild.innerHTML;
 
-let text = `${firstEl}, ${secondEl}, ${thirdEl}, ${fourthEl}, ${lastEl}`;
-console.log(text);
+// console.log(firstEl, lastEl, secondtEl, fourthEl, thirdtEl);
 
 //Не видаляй наступні рядки, вони потрібні для запуску тестів
 module.exports = {
