@@ -5,12 +5,12 @@
 
 // Твій код має бути тут
 
-const myFirstParrent = document.querySelector(".array");
-const mySecondParrent = myFirstParrent.firstElementChild;
-const name = mySecondParrent.children[1].value;
-const phoneNumber = mySecondParrent.children[2].value;
-const dateOfBirth = mySecondParrent.children[3].value;
-const emailAddress = mySecondParrent.children[4].value;
+const myFirstParent = document.querySelector(".array");
+const mySecondParent = myFirstParent.children[0];
+const name = mySecondParent.children[1].value;
+const phoneNumber = mySecondParent.children[2].value;
+const dateOfBirth = mySecondParent.children[3].value;
+const emailAddress = mySecondParent.children[4].value;
 // console.log(name);
 // console.log(phoneNumber);
 // console.log(dateOfBirth);
